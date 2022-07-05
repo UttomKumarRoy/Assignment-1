@@ -24,7 +24,7 @@ body {
 .text-position {
     position: absolute;
     top: 150px;
-    left: 300px;
+    left: 250px;
     text-align: center;
     color: white;
 }
@@ -44,4 +44,35 @@ a {
     color: white;
     padding: 10px;
     border-radius: 5px;
+}
+
+
+/* Donate Today section */
+
+.donate-today {
+    text-align: center;
+}
+
+.amount-option {
+    display: flex;
+}
+
+.amount-option div {
+    width: 100px;
+    height: 100px;
+    padding: 30px 10px;
+    margin-left: 80px;
+}
+
+#selected-amount {
+    background-color: #e3b4b4;
+    border: 2px solid #d04f4f;
+    color: #d04f4f;
+}
+
+input {
+    display: inline-block;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
 }
