@@ -1,0 +1,47 @@
+/* Common styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* header section styling */
+
+.header {
+    height: 500px;
+    width: 100%;
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text-position {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 50;
+}
+
+a {
+    text-decoration: none;
+    background-color: #FF5959;
+    border: 2px solid #FF5959;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
