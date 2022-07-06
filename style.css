@@ -66,6 +66,9 @@ a {
     height: 100px;
     padding: 30px 10px;
     margin-right: 10px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    ;
 }
 
 #selected-amount {
