@@ -23,11 +23,10 @@ body {
 }
 
 .text-position {
-    position: absolute;
-    top: 150px;
-    left: 250px;
     text-align: center;
     color: white;
+    padding-top: 200px;
+    margin: auto;
 }
 
 h1 {
@@ -50,13 +49,15 @@ a {
 
 /* Donate Today section */
 
-.donate-today {
+.center {
     text-align: center;
     margin-bottom: 80px;
 }
 
 .amount-option {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .amount-option div {
@@ -65,10 +66,6 @@ a {
     height: 100px;
     padding: 30px 10px;
     margin-right: 10px;
-}
-
-#hundred-taka {
-    margin-left: 200px;
 }
 
 #selected-amount {
@@ -89,27 +86,25 @@ input {
 
 .service {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
 
 .food {
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
-    margin-right: 20px;
     background-color: #EDF5F6;
 }
 
 .shelter {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
     background-color: #FFEEEE;
 }
 
 .education {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
     background-color: #FFF4D6;
 }
 
@@ -122,10 +117,10 @@ input {
 /* Get Update section */
 
 .design-form {
-    width: 600px;
+    width: 50%;
     height: 100px;
-    padding: 50px;
-    margin-left: 200px;
+    padding: 40px;
+    margin: 0 auto;
     background-color: #FFF4D6;
 }
 
@@ -137,10 +132,17 @@ button {
     border-bottom-right-radius: 5px;
 }
 
-footer {
+
+/* footer section */
+
+.footer {
     width: 100%;
     height: 150px;
     color: white;
     background-color: black;
     margin-bottom: 0;
+}
+
+.humble {
+    color: #FF5959;
 }
