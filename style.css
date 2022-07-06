@@ -10,6 +10,17 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* header section styling */
 
@@ -29,14 +40,6 @@ body {
     margin: auto;
 }
 
-h1 {
-    font-weight: 700;
-}
-
-p {
-    font-weight: 50;
-}
-
 a {
     text-decoration: none;
     background-color: #FF5959;
@@ -48,17 +51,6 @@ a {
 
 
 /* Donate Today section */
-
-.center {
-    text-align: center;
-    margin-bottom: 80px;
-}
-
-.amount-option {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .amount-option div {
     font-weight: 700;
@@ -85,12 +77,6 @@ input[type=text] {
 
 /* Donate Plan section */
 
-.service {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .item {
     width: 200px;
     height: 200px;
@@ -115,12 +101,6 @@ input[type=text] {
 
 
 /* join us section */
-
-.join {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .join img {
     width: 50%;
