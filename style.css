@@ -96,21 +96,39 @@ input {
     margin-right: 20px;
 }
 
-.food {
+.bgc1 {
     background-color: #EDF5F6;
 }
 
-.shelter {
+.bgc2 {
     background-color: #FFEEEE;
 }
 
-.education {
+.bgc3 {
     background-color: #FFF4D6;
 }
 
 .service img {
     width: 25%;
     text-align: left;
+}
+
+
+/* join us section */
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join img {
+    width: 50%;
+}
+
+.item2 {
+    margin-left: 100px;
+    ;
 }
 
 
